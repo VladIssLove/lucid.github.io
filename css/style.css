@@ -1,0 +1,905 @@
+@charset "UTF-8";
+
+.header {
+  background: #16151b url("../img/header/background.png") center no-repeat;
+  color: #fff;
+}
+
+.header-menu {
+  margin-top: 2.6rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.header-menu__item {
+  padding-left: 20px;
+  font-weight: 600;
+  position: relative;
+}
+
+.header-menu__item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-menu__item:nth-child(1):hover:after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 2px;
+  background: url("../img/Prostokąt_2.png") center no-repeat;
+  position: absolute;
+}
+
+.header-menu__item:nth-child(2):hover:after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 2px;
+  background: url("../img/Prostokąt_2.png") center no-repeat;
+  position: absolute;
+  left: 1.8rem;
+}
+
+.header-menu__item:nth-child(3):hover:after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 2px;
+  background: url("../img/Prostokąt_2.png") center no-repeat;
+  position: absolute;
+  left: 1.3rem;
+}
+
+.header-menu__item:nth-child(4):hover:after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 2px;
+  background: url("../img/Prostokąt_2.png") center no-repeat;
+  position: absolute;
+  left: 3rem;
+}
+
+.header-menu__item:nth-child(5):hover:after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 2px;
+  background: url("../img/Prostokąt_2.png") center no-repeat;
+  position: absolute;
+  left: 1.5rem;
+}
+
+.header-menu__item:nth-child(6):hover:after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 2px;
+  background: url("../img/Prostokąt_2.png") center no-repeat;
+  position: absolute;
+  left: 2rem;
+}
+
+.header__logo {
+  margin-top: 2.6rem;
+}
+
+.header-img {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.header-text {
+  margin-top: 8rem;
+}
+
+.header-text__note {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.header-text__title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 3.2rem;
+  margin-bottom: 1rem;
+}
+
+.header-text__descr {
+  color: #999999;
+  font-size: 18px;
+  margin-bottom: 3rem;
+  max-width: 95%;
+}
+
+.button {
+  padding: 0.8rem 1.4rem;
+  border: 1px transparent solid;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #008ed6;
+  margin-right: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-box-shadow: 0 0 3px rgba(3, 3, 3, 0.1);
+  box-shadow: 0 0 3px rgba(3, 3, 3, 0.1);
+  cursor: pointer;
+}
+
+.button-o {
+  background-color: transparent;
+  border: 1px #999 solid;
+}
+
+.navbar {
+  display: none;
+}
+
+.features {
+  border-bottom: 1px solid #ededed;
+}
+
+.features__subtitle {
+  text-align: center;
+  color: #008ed6;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.features__title {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 7rem;
+  position: relative;
+}
+
+.features__title:after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 2px;
+  background-image: url("../img/Prostokąt_2.png");
+  position: absolute;
+  left: 50%;
+  top: 5rem;
+  margin-left: -21px;
+}
+
+.features-item {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.features-item__img {
+  margin-bottom: 1.5rem;
+}
+
+.features-item__title {
+  color: #1a1a1a;
+  font-size: 24px;
+}
+
+.features-item__descr {
+  color: #999999;
+  font-size: 18px;
+}
+
+.details__img {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.details-text {
+  margin-top: 9rem;
+}
+
+.details-text__subtitle {
+  color: #008ed6;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.details-text__title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1a1a1a;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.details-text__title:after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 2px;
+  background-image: url("../img/Prostokąt_2.png");
+  position: absolute;
+  top: 5rem;
+}
+
+.details-text__descr {
+  line-height: 26px;
+  font-size: 18px;
+  width: 29.2rem;
+  margin-bottom: 2rem;
+  color: #999999;
+}
+
+.details-text_items {
+  margin-left: 2rem;
+}
+
+.details-text__item {
+  color: #1b1b1b;
+  line-height: 30px;
+  font-weight: 600;
+  position: relative;
+}
+
+.details-text__item:nth-child(1):before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url("../img/details/Cup.png") center no-repeat;
+  position: absolute;
+  left: -5%;
+  top: 25%;
+}
+
+.details-text__item:nth-child(2):before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url("../img/details/Mouse.png") center no-repeat;
+  position: absolute;
+  left: -5%;
+  top: 25%;
+}
+
+.details-text__item:nth-child(3):before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url("../img/details/Energy.png") center no-repeat;
+  position: absolute;
+  left: -5%;
+  top: 25%;
+}
+
+.details-text__item:nth-child(4):before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url("../img/details/Speedometer.png") center no-repeat;
+  position: absolute;
+  left: -5%;
+  top: 25%;
+}
+
+.customize {
+  background-color: #f2f2f2;
+}
+
+.customize__img {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.customize-text {
+  margin-top: 9rem;
+}
+
+.customize-text__subtitle {
+  color: #008ed6;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.customize-text__title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1a1a1a;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.customize-text__title:after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 2px;
+  background-image: url("../img/Prostokąt_2.png");
+  position: absolute;
+  top: 5rem;
+}
+
+.customize-text__descr {
+  line-height: 26px;
+  font-size: 18px;
+  width: 29.2rem;
+  margin-bottom: 2rem;
+  color: #999999;
+}
+
+.customize__img {
+  margin-top: 6rem;
+}
+
+.plans {
+  background: #3d3532 url("../img/plans/background.png") center no-repeat;
+  padding-top: 3rem;
+  padding-bottom: 12rem;
+  color: #fff;
+}
+
+.plans__subtitle {
+  text-align: center;
+  color: #008ed6;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.plans__title {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 7rem;
+  position: relative;
+}
+
+.plans__title:after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 2px;
+  background-image: url("../img/Prostokąt_2.png");
+  position: absolute;
+  left: 50%;
+  top: 5rem;
+  margin-left: -21px;
+}
+
+.plans__descr {
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 2rem;
+}
+
+.plans-human {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.plans-human__name {
+  margin-left: 2rem;
+}
+
+.plans-human__spec {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.like-theme {
+  background: #15141a;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #fff;
+}
+
+.like-theme_buttons .button {
+  padding: 0.8rem 1.2rem;
+}
+
+.like-theme__text {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.like-theme__text span {
+  font-weight: 400;
+}
+
+.price {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.price__subtitle {
+  text-align: center;
+  color: #008ed6;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.price_title {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 7rem;
+  position: relative;
+}
+
+.price_title:after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 2px;
+  background-image: url("../img/Prostokąt_2.png");
+  position: absolute;
+  left: 50%;
+  top: 5rem;
+  margin-left: -21px;
+}
+
+.price__title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid #ededed;
+  border-bottom: 0px;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.price__price {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 20px;
+  border: 1px solid #ededed;
+  border-bottom: 0px;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.price__price sup {
+  font-size: 38px;
+}
+
+.price__price span {
+  color: #999999;
+  font-size: 18px;
+  display: block;
+  margin-top: 2rem;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.price__descr {
+  border: 1px solid #ededed;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  color: #999999;
+}
+
+.price-button {
+  padding: 0.8rem 2rem;
+  color: #008ed6;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid #e0e0e0;
+  position: absolute;
+  bottom: 2rem;
+  left: 4rem;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.price-block:hover .price-button {
+  background: #008ed6;
+  color: #fff;
+}
+
+.price-block:hover .price__price {
+  background: #008ed6;
+  color: #fff;
+}
+
+.price-block:hover .price__price span {
+  color: #fff;
+}
+
+.price-block:hover .price__title {
+  color: #008ed6;
+}
+
+.contact {
+  text-align: center;
+  background-color: #ededed;
+  padding-top: 4rem;
+}
+
+.contact__subtitle {
+  text-align: center;
+  color: #008ed6;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contact_title {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 7rem;
+  position: relative;
+}
+
+.contact_title:after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 2px;
+  background-image: url("../img/Prostokąt_2.png");
+  position: absolute;
+  left: 50%;
+  top: 5rem;
+  margin-left: -21px;
+}
+
+.contact__img {
+  margin-bottom: 2rem;
+}
+
+.contact__descr {
+  color: #afafaf;
+  font-size: 18px;
+}
+
+.feedback {
+  position: relative;
+  bottom: -3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #15141a;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 3rem;
+}
+
+.feedback-data {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.feedback-data input {
+  background-color: #15141a;
+  margin-bottom: 1rem;
+  border: 1px solid #444348;
+  width: 18rem;
+  color: #afafaf;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+.feedback-message {
+  text-align: right;
+}
+
+.feedback__message {
+  background-color: #15141a;
+  margin-bottom: 1rem;
+  border: 1px solid #444348;
+  width: 18rem;
+  color: #afafaf;
+  padding-top: 0.5rem;
+  padding-bottom: 7.8rem;
+  padding-left: 1rem;
+}
+
+.feedback__submit {
+  margin-top: 0.5rem;
+  margin-right: 0;
+}
+
+.social {
+  background-color: #15141a;
+  margin-top: -0.3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.social__text {
+  text-align: center;
+  font-size: 14px;
+  color: #444348;
+  text-transform: uppercase;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.social-media__item {
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+.social-media__item:hover #soc {
+  fill: #008ed6;
+}
+
+@media (max-width: 1200px) {
+  .customize {
+    padding-bottom: 2rem;
+  }
+
+  .customize__img img {
+    width: 100%;
+  }
+
+  .customize-text__descr {
+    max-width: 90%;
+  }
+
+  .feedback__message {
+    width: 100%;
+  }
+
+  .price-button {
+    left: 2.8rem;
+  }
+
+  .like-theme__text {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-text {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .like-theme_buttons button {
+    margin-bottom: 0.8rem;
+  }
+
+  .price__descr {
+    margin-bottom: 1rem;
+  }
+
+  .price-button {
+    left: 6.5rem;
+    bottom: 3rem;
+  }
+
+  .plans {
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+  }
+
+  .header-img {
+    margin-top: 10rem;
+  }
+
+  .header-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .details__img img {
+    width: 100%;
+  }
+
+  .details-text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .customize__img img {
+    width: 300px;
+    margin-left: -30%;
+  }
+
+  .customize-text {
+    margin-top: 2rem;
+  }
+
+  .like-theme {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .like-theme__text {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  .feedback {
+    padding-left: 2rem;
+    padding-top: 3rem;
+  }
+
+  .price-button {
+    left: 3.8rem;
+  }
+
+  .contact__descr {
+    margin-bottom: 2rem;
+  }
+
+  .contact_title {
+    margin-bottom: 5rem;
+  }
+
+  .customize-text__title,
+  .details-text__title {
+    margin-bottom: 2rem;
+  }
+
+  .customize-text__title:after,
+  .details-text__title:after {
+    display: none;
+  }
+
+  .details-text__descr {
+    max-width: 100%;
+  }
+
+  .header-img {
+    display: none;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+  .nav-item {
+    margin-top: 1rem;
+  }
+
+  .customize__img {
+    margin-top: 3rem;
+  }
+
+  .customize__img img {
+    max-width: 30vw;
+  }
+
+  .customize-text__descr {
+    width: 80vw;
+    max-width: none;
+  }
+
+  .price {
+    padding-top: 4rem;
+  }
+
+  .plans {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .feedback {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .feedback-data input {
+    width: 105%;
+  }
+
+  .feedback-message input:first-child {
+    padding-bottom: 3rem;
+  }
+
+  .details-text__item:nth-child(1n):before {
+    left: -10%;
+  }
+
+  .plans__descr {
+    font-size: 16px;
+  }
+
+  .price__title {
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .price__price {
+    font-size: 50px;
+  }
+
+  .price__price span {
+    margin-top: 1rem;
+  }
+
+  .price__descr {
+    padding-bottom: 6rem;
+  }
+
+  .price-button {
+    left: 33%;
+  }
+
+  .customize-text__title,
+  .details-text__title {
+    font-size: 30px;
+  }
+
+  .features__title {
+    margin-bottom: 4rem;
+  }
+}
